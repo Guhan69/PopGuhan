@@ -1,12 +1,12 @@
 var img = document.getElementById('sleep');
-// var audio = new Audio("./media/pop.mp3");
+var audio = new Audio("pop.mp3");
 var count = document.getElementById("score");
 var score = 0;
 
 function change() {
         img.src = "GSmile.png";
         
-      //  audio.play();
+        audio.play();
         increaseScore();
         setTimeout(function() {
                 img.src = "GSleep.png";
@@ -19,7 +19,7 @@ function change() {
 
 function reset() {
         img.src = "GSleep.png";
-        // audio.play();
+        audio.play();
 }
 
 function imgreset() {
