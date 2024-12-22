@@ -8,9 +8,9 @@ function change() {
         
         audio.play();
         increaseScore();
-        setTimeout(function() {
+      /*  setTimeout(function() {
                 img.src = "GSleep.png";
-            }, 400);
+            }, 400);*/
         if (score >= 50){
                 alert("Ada Mwone Mathi. ")
         }
