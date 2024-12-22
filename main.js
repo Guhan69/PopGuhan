@@ -11,7 +11,7 @@ function change() {
       /*  setTimeout(function() {
                 img.src = "GSleep.png";
             }, 400);*/
-        if (score %20 == 50){
+        if (score % 20 == 0){
                 alert("Ada Mwone Mathi. ")
         }
       
