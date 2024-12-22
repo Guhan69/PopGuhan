@@ -1,5 +1,5 @@
 var img = document.getElementById('sleep');
-var audio = new Audio("pop.mp3");
+var audio = new Audio("media_pop.mp3");
 var count = document.getElementById("score");
 var score = 0;
 
