@@ -1,0 +1,24 @@
+
+
+/* Style for the animated text */
+.animated-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: #71db34;
+    opacity: 0; /* Initially hide the text */
+    transform: translateY(20px); /* Start position (slightly below) */
+    animation: fadeUp 2s forwards; /* Animation applied */
+    text-shadow: 20px 10px 5px rgb(0, 0, 0);
+}
+
+/* Keyframes for the fade-up animation */
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Start position */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End position (normal place) */
+    }
+}
